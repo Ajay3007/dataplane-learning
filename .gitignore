@@ -1,0 +1,41 @@
+# Build outputs
+*.o
+*.a
+*.so
+*.d
+
+# Executables (module binaries)
+config_parser
+logger
+ring
+hashmap
+packet_parser
+dns_parser
+tls_sni
+eal_init
+mempool_mbuf
+port_init
+pipeline
+rte_hash_crud
+atomic_stats
+numa_alloc
+hs_compile
+hs_scan
+policy_lookup
+dns_sinkhole
+kafka_producer
+kafka_consumer
+full_pipeline
+
+# Serialized Hyperscan databases
+*.hsdb
+*.bin
+
+# Editor / IDE
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Log files
+*.log
